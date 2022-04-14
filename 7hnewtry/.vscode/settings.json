@@ -1,0 +1,8 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false,
+    "python.linting.pylamaEnabled": false,
+    "python.linting.banditEnabled": true,
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {"*html": "html"}
+}
