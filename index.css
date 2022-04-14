@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: orange;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav {
+    align-items: flex-end;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.nav li {
+    margin-right: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    margin: 5px;
+    color: white;
+    float: left;
+}
+
+li img {
+    width: 25px;
+}
+
+.sec {
+    display: flex;
+    align-content: flex-end;
+    margin-top: 30em;
+    float: right;
+}
+
+#dogpic {
+    display: flex;
+    justify-content: end;
+    margin: 2em;
+}
+
+ul li form {
+    display: flex;
+}
+
+form input {
+    background-color: rgba(197, 183, 183, 0.5);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 38px;
+}
+
+::placeholder {
+    color: white;
+    padding: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+ul li:hover {
+    color: yellow;
+}
+
+.content h1 {
+    display: flex;
+    padding: 5%;
+}
+
+.btn1 {
+    width: 6em;
+    color: white;
+    background-color: green;
+}
+
+.btn2 {
+    width: 6em;
+    color: white;
+    background-color: orange;
+    margin: 5px;
+}
+
+.buttons {
+    display: flex;
+    padding: 5px;
+}
